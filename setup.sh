@@ -46,3 +46,6 @@ ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 
+#install additional stuff
+sudo apt-get -y install nodejs
+sudo apt-get -y install npm
